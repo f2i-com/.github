@@ -1,380 +1,281 @@
-<h1 align="center">FormLogic</h1>
+<h1 align="center">F2i</h1>
 
-<p align="center"><strong>Forms → Apps → Flows</strong></p>
+<p align="center"><strong>Independent minds. Connected ideas.</strong></p>
 
 <p align="center">
-  Turn structured data into complete business software: forms, records, portals, dashboards, reports, automations, hosted apps and AI-assisted workflows in one connected platform.
+  An independent software lab building public software from the runtime to the app: a scripting engine, a portable app language, a business platform, a local AI workspace, a phone receptionist and a local-first database. Six projects, one connected lab.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/status-public_beta-7657F6?style=for-the-badge&labelColor=090F1D" alt="Public beta" />
-  <img src="https://img.shields.io/badge/deploy-cloud_%7C_self--hosted-4CC7D8?style=for-the-badge&labelColor=090F1D" alt="Cloud or self-hosted" />
-  <img src="https://img.shields.io/badge/apps-editable_%26_portable-C9FB68?style=for-the-badge&labelColor=090F1D" alt="Editable and portable apps" />
+  <img src="https://img.shields.io/badge/projects-6_connected-7657F6?style=for-the-badge&labelColor=090F1D" alt="Six connected projects" />
+  <img src="https://img.shields.io/badge/built_with-Rust_%7C_TypeScript_%7C_PHP-4CC7D8?style=for-the-badge&labelColor=090F1D" alt="Rust, TypeScript and PHP" />
+  <img src="https://img.shields.io/badge/thinking-local--first-C9FB68?style=for-the-badge&labelColor=090F1D" alt="Local-first thinking" />
   <img src="https://img.shields.io/badge/AI-bring_your_own-8268FF?style=for-the-badge&labelColor=090F1D" alt="Bring your own AI" />
 </p>
 
 <p align="center">
-  <a href="https://formlogic.com/"><strong>Website</strong></a>
+  <a href="https://f2i.com/"><strong>f2i.com</strong></a>
   ·
-  <a href="https://formlogic.com/#live-demo"><strong>Live demo</strong></a>
+  <a href="#the-projects"><strong>The projects</strong></a>
   ·
-  <a href="https://formlogic.com/signup"><strong>Create an account</strong></a>
+  <a href="#how-the-pieces-fit-together"><strong>How they fit together</strong></a>
   ·
-  <a href="docs/README.md"><strong>Documentation</strong></a>
+  <a href="#start-here"><strong>Start here</strong></a>
   ·
-  <a href="#self-host-formlogic"><strong>Self-host</strong></a>
+  <a href="#licences"><strong>Licences</strong></a>
 </p>
 
 <p align="center">
-  <img src="docs/images/dashboard-desktop.jpg" alt="FormLogic dashboard showing apps, forms and recent activity" width="100%" />
+  <a href="https://github.com/f2i-com/zipp.org">ZIPP</a>
+  ·
+  <a href="https://github.com/f2i-com/softn.com">SoftN</a>
+  ·
+  <a href="https://github.com/f2i-com/formlogic.com">FormLogic</a>
+  ·
+  <a href="https://github.com/f2i-com/oaiy.com">OAIY</a>
+  ·
+  <a href="https://github.com/f2i-com/aokie.com">Aokie</a>
+  ·
+  <a href="https://github.com/f2i-com/xdb.org">XDB</a>
 </p>
 
 ---
 
-## A form submission should start the work, not end it
+## Big ideas, built from the source
 
-FormLogic is a **source-available, self-hostable business application platform** built around a simple idea: your interface, data and automation should stay connected.
+Most software stacks hide the interesting parts. F2i builds them in the open, one layer at a time, and connects them on purpose.
 
-Start with a form or an installable app. Turn the same records into a customer portal, a staff workspace, dashboards and reports. Then connect events, decisions, AI, services and devices through flows.
+A script written in [SoftN](https://github.com/f2i-com/softn.com) runs on the [ZIPP](https://github.com/f2i-com/zipp.org) engine. That app can be hosted by [FormLogic](https://github.com/f2i-com/formlogic.com) with real business records, permissions and automation. A flow in [OAIY](https://github.com/f2i-com/oaiy.com) can call the AI you already have, locally or through a provider. [Aokie](https://github.com/f2i-com/aokie.com) turns a phone call into structured work. [XDB](https://github.com/f2i-com/xdb.org) keeps app data local where that model fits.
 
-| Capture                                                                                                         | Operate                                                                                     | Automate                                                                              |
-| --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| Build public and internal forms with validation, conditional logic, uploads, linked records and custom screens. | Turn shared data into branded apps, portals, dashboards, reports and role-aware workspaces. | Trigger flows from submissions, record changes, connected services and device events. |
-| Start visually, from a template, from a marketplace app or with AI assistance.                                  | Give different audiences different interfaces over the same underlying records.             | Call AI providers, APIs, backend actions, local services and approved plugins.        |
+Every project stands on its own. Where they connect, the boundaries are deliberate.
 
-**You do not need AI to use FormLogic.** Manual builders, starters, apps, records and flows work independently. AI is an optional capability you connect when it is useful.
-
----
-
-## What you can build
-
-### Forms that grow into applications
-
-Create structured data models using the visual form builder, then reuse them across multiple experiences instead of copying data between disconnected tools.
-
-* validation and conditional logic
-* linked records and relationships
-* file uploads, signatures, locations and calculated fields
-* public and authenticated forms
-* version history, webhooks and server-side submit logic
-* reusable form templates loaded from project files
-
-### One backend, many portals
-
-A customer portal, staff app and administrator workspace can all use the **same forms and records** while keeping their own navigation, branding, roles, dashboards and reports.
-
-That means a customer can submit a request, a staff member can work the queue, and an administrator can report across everything without maintaining three separate databases.
-
-[Read the connected portal model](docs/ONE_BACKEND_MANY_PORTALS.md)
-
-### Dashboards and reports
-
-Build operational views from the records already flowing through the system:
-
-* KPI cards
-* charts and trends
-* record lists and tables
-* activity views
-* app-level and form-level dashboards
-* printable reports and PDFs
-
-### Visual flows
-
-Flows connect events to actions. A run can branch, transform data, call a model, operate a connector, invoke a backend action, interact with a local service or update FormLogic records.
-
-Typical triggers include:
-
-* form submissions
-* hosted app database changes
-* connector events
-* device/plugin events
-* manual runs
-
-Runs are tracked so automations remain inspectable rather than disappearing into a black box.
-
-[Read the flow contract](docs/FORMLOGIC_FLOWS.md)
+| Built in public | Local-first thinking | From Rust to the browser | Yours to explore |
+| :-- | :-- | :-- | :-- |
+| Source, docs, benchmarks and audits live in the repositories. | Your data, your models and your keys stay on machines you control. | Native engines and WebAssembly builds share the same code. | Read the source, run the demos, download the editable app. |
 
 ---
 
-## Editable apps with SoftN
+## The projects
 
-FormLogic can host complete **[SoftN](https://github.com/f2i-com/softn.com)** applications, not just fixed templates.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-A SoftN project can contain its editable interface, client logic, assets and local data model. Inside FormLogic, a hosted app can also gain private server-side `.logic` routes, SQLite migrations, backend actions and FormLogic-managed authentication.
+### <a href="https://github.com/f2i-com/zipp.org">ZIPP</a> · Execution engine
 
-From App Studio you can work across the stack:
+**Two languages. One VM. Your GPU.**
 
-| Work on                 | In FormLogic                                                             |
-| ----------------------- | ------------------------------------------------------------------------ |
-| **Interface**           | Open the embedded SoftN Visual Builder.                                  |
-| **Source**              | Edit `.ui` and `.logic` files directly.                                  |
-| **AI-assisted changes** | Open AI Studio with the provider you choose.                             |
-| **Private backend**     | Manage server-side logic separately from downloadable client source.     |
-| **SQLite records**      | Inspect and administer hosted app data.                                  |
-| **Automation**          | Bind app record events to FormLogic flows.                               |
-| **Portability**         | Download the editable client project when you want to take it elsewhere. |
+A from-scratch JavaScript engine in Rust with 100% Test262 conformance. JavaScript and an experimental Python frontend compile to the same register VM, running natively or in WebAssembly, with WebGPU and WebGL2 compute for supported workloads. Execution budgets and explicit host capabilities keep the embedder in control.
 
-<p align="center">
-  <img src="docs/images/native-backend.jpg" alt="FormLogic hosted app backend editor" width="850" />
-</p>
+`Rust` · `Apache-2.0` · `Native + WebAssembly`
 
-FormLogic installs the hosted SoftN runtime, embedded editors and native backend modules from a verified SoftN release. The release is checked before installation so the runtime used by a FormLogic build is explicit and reproducible.
+[Repository](https://github.com/f2i-com/zipp.org) · [zipp.org](https://www.zipp.org/) · [Test262](https://www.zipp.org/test262/) · [Benchmarks](https://www.zipp.org/benchmarks/)
 
-[Build and host a SoftN app](docs/HOSTED_APPS.md) · [Editable app packs](docs/PACK_PROJECTS.md)
+</td>
+<td width="50%" valign="top">
+
+<a href="https://github.com/f2i-com/zipp.org"><img src="https://raw.githubusercontent.com/f2i-com/zipp.org/main/docs/assets/zipp-hero.svg" alt="ZIPP: two languages, one VM, your GPU" width="100%" /></a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://github.com/f2i-com/softn.com"><img src="https://raw.githubusercontent.com/f2i-com/softn.com/main/docs/readme-assets/builder-preview.jpg" alt="SoftN Builder running the Fieldnotes example app with a live preview" width="100%" /></a>
+
+</td>
+<td width="50%" valign="top">
+
+### <a href="https://github.com/f2i-com/softn.com">SoftN</a> · Editable apps
+
+**Build an app. Keep the source. Run it your way.**
+
+A UI language, visual builder and runtime for portable apps on the web and desktop. Ninety built-in components, a schema editor, live previews and an AI Studio that uses your own provider. App logic runs on ZIPP; records live in XDB. A `.softn` bundle carries the whole app so you can reopen, customise and export it again.
+
+`TypeScript` · `Apache-2.0` · `Web + desktop`
+
+[Repository](https://github.com/f2i-com/softn.com) · [softn.com](https://softn.com/) · [Examples](https://github.com/f2i-com/softn-Examples)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### <a href="https://github.com/f2i-com/formlogic.com">FormLogic</a> · Forms → Apps → Flows
+
+**A form submission should start the work, not end it.**
+
+A source-available, self-hostable business platform. Build forms, turn the same records into portals, dashboards and reports, then connect events, decisions, AI and devices through visual flows. FormLogic hosts complete SoftN apps with private server-side logic, and takes its runtime from a verified SoftN release.
+
+`TypeScript + PHP` · `Source-available` · `Public beta` · `Cloud or self-hosted`
+
+[Repository](https://github.com/f2i-com/formlogic.com) · [formlogic.com](https://formlogic.com/) · [Live demo](https://formlogic.com/#live-demo) · [Docs](https://github.com/f2i-com/formlogic.com/blob/main/docs/README.md)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://github.com/f2i-com/formlogic.com"><img src="https://raw.githubusercontent.com/f2i-com/formlogic.com/main/docs/images/dashboard-desktop.jpg" alt="FormLogic dashboard showing apps, forms and recent activity" width="100%" /></a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://github.com/f2i-com/oaiy.com"><img src="https://raw.githubusercontent.com/f2i-com/oaiy.com/main/docs/images/desktop-overview.png" alt="OAIY Desktop overview with the setup guide, a running Aokie plugin and local runtime status" width="100%" /></a>
+
+</td>
+<td width="50%" valign="top">
+
+### <a href="https://github.com/f2i-com/oaiy.com">OAIY</a> · Orchestrate AI Yourself
+
+**Connect your AI. Build a flow. Put it to work.**
+
+A visual flow editor, local AI services, provider connections and device plugins in one workspace. Use a local model, an API provider or your ChatGPT account through Codex. Run flows in the browser, headless, or through OAIY Desktop, and connect apps such as FormLogic to the runtime on your own machine. The flow sandbox runs on ZIPP.
+
+`TypeScript + Rust` · `Apache-2.0` · `Local-first`
+
+[Repository](https://github.com/f2i-com/oaiy.com) · [oaiy.com](https://oaiy.com/) · [Bridge protocol](https://github.com/f2i-com/oaiy.com/blob/main/protocol/README.md)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### <a href="https://github.com/f2i-com/aokie.com">Aokie</a> · Local AI receptionist
+
+**Your phone. A local AI receptionist. An editable front desk.**
+
+A Windows PC, a supported USB Bluetooth adapter and your existing mobile become a receptionist that keeps your number. Aokie handles the call audio and voice conversation through OAIY, then sends durable call, SMS, transcript and appointment events into FormLogic. The front desk itself is an editable SoftN app.
+
+`Rust` · `Proprietary` · `Hardware beta` · `Windows 10/11 x64`
+
+[Repository](https://github.com/f2i-com/aokie.com) · [Setup guide](https://formlogic.com/aokie) · [Supported hardware](https://github.com/f2i-com/aokie.com/blob/main/docs/HARDWARE.md)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://github.com/f2i-com/aokie.com"><img src="https://raw.githubusercontent.com/f2i-com/aokie.com/main/docs/readme-assets/front-desk-demo-desktop.png" alt="The hosted Aokie front desk in FormLogic showing fictional calls and appointment requests" width="100%" /></a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://github.com/f2i-com/aokie.com"><img src="https://raw.githubusercontent.com/f2i-com/aokie.com/main/docs/readme-assets/oaiy-receptionist-live.png" alt="OAIY Desktop Aokie console reporting ready for calls, Bluetooth linked and local LLM ready" width="100%" /></a>
+
+</td>
+<td width="50%" valign="top">
+
+### <a href="https://github.com/f2i-com/xdb.org">XDB</a> · Local-first database
+
+**Local SQLite storage with optional peer synchronisation.**
+
+A Rust crate and React + Tauri integration that stores JSON records in named collections. Apps work offline, group writes into transactions and export or restore a SQLite database. Yrs CRDT documents and an experimental, opt-in libp2p peer protocol handle synchronisation. XDB backs SoftN's desktop runtime and Rust server.
+
+`Rust + TypeScript` · `MIT` · `SQLite + CRDT`
+
+[Repository](https://github.com/f2i-com/xdb.org) · [Sync and restore policy](https://github.com/f2i-com/xdb.org/blob/main/docs/networking-and-restore-policy.md)
+
+</td>
+</tr>
+</table>
 
 ---
 
-## Bring your own AI
-
-FormLogic is designed to work with the AI setup you already prefer.
-
-You can connect:
-
-* **[OAIY](https://github.com/f2i-com/oaiy.com)** for local models, provider connections, local services, plugins and headless execution
-* an OpenAI-compatible or other supported API provider
-* external AI clients through scoped OAuth/MCP access
-
-AI can help create and modify forms, apps and workflows, but it does not become the owner of your project. Your forms, records, app definitions and permissions remain FormLogic resources.
-
-<p align="center">
-  <img src="docs/images/connect-ai-desktop.jpg" alt="FormLogic AI connection setup" width="100%" />
-</p>
-
-[AI setup](docs/FREE_PLANS_AND_AI_SETUP.md) · [MCP integration](docs/MCP.md)
-
----
-
-## One connected F2i ecosystem
-
-FormLogic is part of **[F2i](https://f2i.com/)**, an independent software lab building connected projects from low-level runtimes to end-user applications.
-
-Each project can stand on its own. Where they connect, the boundaries are intentional.
-
-| Project                                           | Role in the ecosystem                                                                                                                                                         |
-| ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **FormLogic**                                     | Forms, business records, apps, portals, dashboards, reports, access control, flows, hosting and APIs.                                                                         |
-| **[SoftN](https://github.com/f2i-com/softn.com)** | Portable editable applications, Visual Builder, AI Studio and the app runtime used by hosted FormLogic workspaces.                                                            |
-| **[ZIPP](https://github.com/f2i-com/zipp.org)**   | Rust execution engine used for sandboxed application and form logic, with native and WebAssembly runtimes.                                                                    |
-| **[XDB](https://github.com/f2i-com/xdb.org)**     | Local-first SQLite/CRDT storage used by SoftN native/server environments where local app data is appropriate. FormLogic business records use FormLogic's own backend storage. |
-| **[OAIY](https://github.com/f2i-com/oaiy.com)**   | Local and headless execution layer for AI providers, models, services, supervised plugins and connected flows.                                                                |
-| **[Aokie](https://github.com/f2i-com/aokie.com)** | Local-first phone/voice plugin that turns calls, messages and appointment requests into structured FormLogic work.                                                            |
+## How the pieces fit together
 
 ```mermaid
 flowchart LR
-    Z[ZIPP\nExecution engine] --> S[SoftN\nEditable app runtime]
-    X[XDB\nLocal app data] --> S
-    S --> F[FormLogic\nApps + records + flows]
-    O[OAIY\nLocal AI + services] <--> F
-    A[Aokie\nPhone + voice] --> O
+    Z["ZIPP<br/>Execution engine"] --> S["SoftN<br/>Editable app runtime"]
+    Z --> O
+    X["XDB<br/>Local app data"] --> S
+    S --> F["FormLogic<br/>Apps, records and flows"]
+    O["OAIY<br/>Local AI and services"] <--> F
+    A["Aokie<br/>Phone and voice"] --> O
     A --> F
 ```
 
-The important separation is deliberate:
+| Project | Owns | Never owns |
+| :-- | :-- | :-- |
+| **ZIPP** | Sandboxed execution of JavaScript and Python, natively and in WebAssembly. | Anything about the apps that run on it. |
+| **SoftN** | The portable app: interface, client logic, data model and editors. | Hosted business records or server credentials. |
+| **XDB** | Local app storage and peer synchronisation where that model fits. | FormLogic business records, which use FormLogic's own backend. |
+| **FormLogic** | Hosted records, permissions, portals, dashboards, flows and APIs. | Your AI provider or your local machine. |
+| **OAIY** | Local models, provider connections, services, plugins and headless flow execution. | The business workflow around an event. |
+| **Aokie** | Bluetooth call audio, SMS, the voice conversation and a durable event outbox. | Your phone number, which stays where it is. |
 
-* **SoftN** owns the portable app experience.
-* **ZIPP** executes sandboxed logic.
-* **XDB** provides local app storage where that model fits.
-* **FormLogic** owns hosted business records, permissions and operational workflows.
-* **OAIY** owns local capabilities and background/headless execution.
-* **Aokie** brings real-world phone events into that workflow.
+Engines move between projects as releases, not as commits. SoftN builds on a published ZIPP release and ships it inside its own release archive. FormLogic downloads and verifies that SoftN release before installing it. The set of versions in any build is explicit and reproducible.
 
 ---
 
-## Aokie: a real-world example
+## A phone call, end to end
 
-**[Aokie](https://github.com/f2i-com/aokie.com)** shows what the connected architecture is for.
+Aokie shows what the connected architecture is for.
 
-A supported mobile phone connects to an OAIY-managed Aokie plugin over Bluetooth. Aokie handles call control, audio, speech and durable call/SMS events. FormLogic hosts the editable front-desk app, stores the business records and runs the workflows around each conversation.
-
-A phone call can become:
-
-1. a call record
-2. a transcript
-3. a caller or customer match
-4. an appointment request
-5. a follow-up task
-6. a notification or workflow run
+1. A caller rings your existing mobile. Aokie answers over Bluetooth and holds the conversation with a local or provider model through OAIY.
+2. The call, transcript and any appointment request are written to a durable outbox and delivered to FormLogic.
+3. FormLogic matches the caller, stores the records and runs the flows you configured: a follow-up task, a notification, a callback attempt.
+4. Staff work the queue in the front desk app, which is a SoftN app they can download, edit and re-host.
 
 The phone remains the phone. OAIY supplies the local capability. FormLogic turns the event into structured work.
 
-> [!IMPORTANT]
-> Aokie is currently a hardware beta. Auto-answer is opt-in, hardware compatibility varies, and appointment requests should be confirmed by staff or an intentionally configured workflow.
-
-[Aokie setup](https://formlogic.com/aokie) · [Hardware guide](https://github.com/f2i-com/aokie.com/blob/main/docs/HARDWARE.md)
+> [!NOTE]
+> Aokie is a hardware beta. Auto-answer is opt-in, hardware compatibility varies, and appointment requests are requests until a person or a configured flow confirms them.
 
 ---
 
-## Start with a working app
+## Start here
 
-You do not have to begin with an empty canvas.
-
-FormLogic's marketplace contains installable business app packs covering areas such as field service, workshops, hospitality, retail, compliance, administration and front-desk workflows.
-
-A pack can bring together:
-
-* forms and linked data
-* SoftN workspaces
-* dashboards and reports
-* roles and permissions
-* flows and event bindings
-* backend logic and database migrations where required
-
-Install one, inspect how it works, customise it, or use it as the starting point for a completely different application.
+| I want to… | Go to |
+| :-- | :-- |
+| Try a working app without installing anything | [Fieldnotes on SoftN](https://github.com/f2i-com/softn.com/tree/main/examples/fieldnotes) · [FormLogic live demo](https://formlogic.com/#live-demo) |
+| Run FormLogic on my own server | [Self-hosting guide](https://github.com/f2i-com/formlogic.com/blob/main/DEPLOYMENT.md) |
+| Embed a JavaScript or Python engine in Rust | [ZIPP quick start](https://github.com/f2i-com/zipp.org#quick-start) |
+| Run GPU compute from Python in the browser | [ZIPP GPU lab](https://github.com/f2i-com/zipp.org#start-the-local-gpu-lab) |
+| Connect my own AI to FormLogic | [OAIY setup](https://github.com/f2i-com/oaiy.com#set-up-your-ai) · [FormLogic AI setup](https://github.com/f2i-com/formlogic.com/blob/main/docs/FREE_PLANS_AND_AI_SETUP.md) |
+| Turn my phone into a receptionist | [Aokie setup](https://formlogic.com/aokie) · [Supported hardware](https://github.com/f2i-com/aokie.com/blob/main/docs/HARDWARE.md) |
+| Store local records in a Tauri app | [XDB demo](https://github.com/f2i-com/xdb.org#run-the-demo) |
+| Play something built on the stack | [The Night Window](https://github.com/f2i-com/softn-TheNightWindow) · [Last Sound](https://github.com/f2i-com/softn-LastSound) |
 
 ---
 
-## Self-host FormLogic
+## Also in the lab
 
-FormLogic is designed to run on infrastructure you control.
-
-### Requirements
-
-* PHP 8.2+
-* MySQL 8.0+
-* Composer
-* Node.js matching the repository's `.node-version` for builds and hosted app runtime preparation
-* npm
-* Git
-
-For a clean source checkout:
-
-```bash
-git clone https://github.com/f2i-com/formlogic.com.git
-cd formlogic.com/formlogic/ui
-
-npm install
-node ../../scripts/fetch-softn-release.mjs
-
-cd ..
-chmod +x install.sh
-./install.sh
-```
-
-The SoftN fetch step downloads and verifies the hosted runtime, embedded editors and native backend modules before installing them into the FormLogic tree.
-
-For manual installation, Windows/WAMP/XAMPP setup, production HTTPS configuration, web-server examples and upgrade procedures, use the full guides:
-
-* [Developer setup](formlogic/README.md)
-* [Deployment](DEPLOYMENT.md)
-* [Upgrading](docs/UPGRADING.md)
-* [Release runbook](docs/RELEASE_RUNBOOK.md)
-
-> [!WARNING]
-> Production deployments must protect backend storage and secrets. Serve the built frontend and the backend `public/` directory only, use HTTPS, and follow the deployment guide rather than exposing the source tree through the web server.
+| Repository | What it is |
+| :-- | :-- |
+| [softn-Examples](https://github.com/f2i-com/softn-Examples) | Every demo in the softn.com directory as source, from a snake game to a Game Boy, a 386 PC and a language model that never leaves the browser. |
+| [softn-TheNightWindow](https://github.com/f2i-com/softn-TheNightWindow) | A fully voiced observation-horror game for SoftN. Seven nights, six endings. |
+| [softn-LastSound](https://github.com/f2i-com/softn-LastSound) | A fully voiced first-person survey of a blood ocean, built for SoftN. |
+| [neuralautomata.com](https://github.com/f2i-com/neuralautomata.com) | A local research lab for cellular memory and a causal byte language model, with a WebGL2 view of real model state. |
+| [f2i-web](https://github.com/f2i-com/f2i-web) | The browser-based flow builder that OAIY grew out of. |
 
 ---
 
-## Repository layout
+## Licences
 
-```text
-formlogic.com/
-├── formlogic/
-│   ├── backend/          PHP/Slim API, workers, migrations and storage
-│   ├── ui/               React + TypeScript application and builders
-│   ├── native-runtime/   Optional native application shell
-│   ├── runtime/          Sandboxed form/script runtime integration
-│   ├── install.php       Browser-assisted installer
-│   └── install.sh        CLI-assisted installer
-├── docs/                 Product, architecture, API and operations guides
-├── scripts/              Build, release and ecosystem integration tooling
-├── DEPLOYMENT.md         Production deployment guidance
-├── LAUNCH_CHECKLIST.md   Release and launch verification
-├── SECURITY.md           Security policy
-└── README.md             Product overview
-```
+| Project | Licence |
+| :-- | :-- |
+| ZIPP, SoftN, OAIY | [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0) |
+| XDB | [MIT](https://github.com/f2i-com/xdb.org/blob/main/LICENSE) |
+| FormLogic | [FormLogic License 1.0](https://github.com/f2i-com/formlogic.com/blob/main/LICENSE): source-available, free to self-host and modify for your own use, not open source. |
+| Aokie | Proprietary, pre-1.0. Contact FormLogic for licensing terms. |
 
-OAIY and Aokie live in their own repositories. The optional `native-runtime/` shell in this repository is not the OAIY desktop host.
-
----
-
-## Architecture at a glance
-
-| Layer                         | Main technologies                                                        |
-| ----------------------------- | ------------------------------------------------------------------------ |
-| **Web application**           | React 19, TypeScript, Vite, Tailwind CSS, Zustand and React Router       |
-| **Visual builders**           | Drag-and-drop UI tooling, flow graph editing and embedded source editors |
-| **Backend**                   | PHP 8.2+, Slim 4 and MySQL platform metadata                             |
-| **Hosted app data**           | Isolated SQLite storage for hosted application backends                  |
-| **Sandboxed logic**           | ZIPP in browser/server execution paths with explicit host capabilities   |
-| **Portable app runtime**      | SoftN runtime and embedded editors installed from a verified release     |
-| **Local/headless capability** | OAIY Desktop and headless runtime                                        |
-| **Phone integration**         | Aokie plugin, Bluetooth call/audio handling and durable event delivery   |
-
-FormLogic keeps trust boundaries explicit. Downloadable client projects do not silently contain server credentials or private backend databases. Connected local capabilities require approval, and server-side permissions remain authoritative.
-
----
-
-## Documentation
-
-| I want to…                          | Read                                       |
-| ----------------------------------- | ------------------------------------------ |
-| Understand the documentation map    | [Documentation index](docs/README.md)      |
-| Run FormLogic locally               | [Developer setup](formlogic/README.md)     |
-| Build or host a SoftN application   | [Hosted apps](docs/HOSTED_APPS.md)         |
-| Connect apps, OAIY or Aokie         | [Connected apps](docs/CONNECTED_APPS.md)   |
-| Understand flows and event bindings | [Flows](docs/FORMLOGIC_FLOWS.md)           |
-| Connect an external AI client       | [MCP](docs/MCP.md)                         |
-| Use the REST API                    | [API reference](docs/API.md)               |
-| Deploy to production                | [Deployment](DEPLOYMENT.md)                |
-| Prepare a release                   | [Release runbook](docs/RELEASE_RUNBOOK.md) |
-| Report or review security concerns  | [Security policy](SECURITY.md)             |
-
----
-
-## Security
-
-FormLogic handles application data, automation and authenticated business workflows, so deployment boundaries matter.
-
-The project includes controls around areas such as:
-
-* server-enforced roles and permissions
-* authenticated sessions and scoped access
-* sandboxed user/application logic
-* guarded outbound requests
-* isolated hosted application data
-* explicit plugin and local-runtime approvals
-* release, recovery and deployment verification
-
-Security behavior is implementation-specific and continues to evolve during beta. Review [SECURITY.md](SECURITY.md), the deployment guide and the current source before relying on a feature as a security boundary.
-
----
-
-## License
-
-FormLogic is **proprietary, source-available software**. It is not open source.
-
-The licence allows you to:
-
-* run and self-host FormLogic for free
-* use it for personal, internal and commercial business operations
-* inspect and modify the source for your own use
-* share the software or your modifications for free with the required notices intact
-
-Without a separate commercial agreement, you may not resell FormLogic, offer it as a competing paid/hosted service, or charge third parties to host or operate it on their behalf.
-
-See [LICENSE](LICENSE) for the complete terms.
-
----
-
-## Related projects
-
-* [F2i](https://f2i.com/) - the wider project ecosystem
-* [SoftN](https://github.com/f2i-com/softn.com) - editable app language, builder and runtime
-* [ZIPP](https://github.com/f2i-com/zipp.org) - Rust JavaScript/Python execution engine
-* [XDB](https://github.com/f2i-com/xdb.org) - local-first SQLite and CRDT storage
-* [OAIY](https://github.com/f2i-com/oaiy.com) - local AI and workflow orchestration
-* [Aokie](https://github.com/f2i-com/aokie.com) - local AI phone receptionist and hardware integration
+Security concerns for any project go through that repository's `SECURITY.md`.
 
 ---
 
 <p align="center">
-  <strong>Build the interface. Keep the data connected. Automate what happens next.</strong>
+  <strong>Engines, tools, and a little unreasonable curiosity.</strong>
 </p>
 
 <p align="center">
-  <a href="https://formlogic.com/">FormLogic.com</a>
+  <a href="https://f2i.com/">f2i.com</a>
   ·
-  <a href="docs/README.md">Documentation</a>
+  <a href="https://formlogic.com/">FormLogic</a>
   ·
-  <a href="https://github.com/f2i-com">F2i on GitHub</a>
+  <a href="https://softn.com/">SoftN</a>
+  ·
+  <a href="https://www.zipp.org/">ZIPP</a>
+  ·
+  <a href="https://oaiy.com/">OAIY</a>
 </p>
