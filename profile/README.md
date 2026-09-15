@@ -247,7 +247,7 @@ The phone remains the phone. OAIY supplies the local capability. FormLogic turns
 | [softn-TheNightWindow](https://github.com/f2i-com/softn-TheNightWindow) | A fully voiced observation-horror game for SoftN. Seven nights, six endings. |
 | [softn-LastSound](https://github.com/f2i-com/softn-LastSound) | A fully voiced first-person survey of a blood ocean, built for SoftN. |
 | [neuralautomata.com](https://github.com/f2i-com/neuralautomata.com) | A local research lab for cellular memory and a causal byte language model, with a WebGL2 view of real model state. |
-| [f2i-web](https://github.com/f2i-com/f2i-web) | An earlier browser-based flow builder for local AI engines, with an optional PHP backend for sharing flows and driving them remotely. |
+| [f2i-web](https://github.com/f2i-com/f2i-web) | The browser-based flow builder that OAIY grew out of: a node-graph editor for local AI engines, with an optional PHP backend for sharing flows and driving them remotely. |
 
 ---
 
