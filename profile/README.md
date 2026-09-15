@@ -247,7 +247,7 @@ The phone remains the phone. OAIY supplies the local capability. FormLogic turns
 | [softn-TheNightWindow](https://github.com/f2i-com/softn-TheNightWindow) | A fully voiced observation-horror game for SoftN. Seven nights, six endings. |
 | [softn-LastSound](https://github.com/f2i-com/softn-LastSound) | A fully voiced first-person survey of a blood ocean, built for SoftN. |
 | [neuralautomata.com](https://github.com/f2i-com/neuralautomata.com) | A local research lab for cellular memory and a causal byte language model, with a WebGL2 view of real model state. |
-| [f2i-web](https://github.com/f2i-com/f2i-web) | The browser-based flow builder that OAIY grew out of. |
+| [f2i-web](https://github.com/f2i-com/f2i-web) | An earlier browser-based flow builder for local AI engines, with an optional PHP backend for sharing flows and driving them remotely. |
 
 ---
 
@@ -260,7 +260,7 @@ The phone remains the phone. OAIY supplies the local capability. FormLogic turns
 | FormLogic | [FormLogic License 1.0](https://github.com/f2i-com/formlogic.com/blob/main/LICENSE): source-available, free to self-host and modify for your own use, not open source. |
 | Aokie | Proprietary, pre-1.0. Contact FormLogic for licensing terms. |
 
-Security concerns for any project go through that repository's `SECURITY.md`.
+Security concerns go to the project concerned. FormLogic, ZIPP and Aokie each publish a `SECURITY.md` with their reporting process; for the other projects, open an issue in that repository.
 
 ---
 

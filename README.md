@@ -31,7 +31,7 @@ Other files GitHub recognises in this repository, none of which exist yet:
 - `workflow-templates/` publishes starter GitHub Actions workflows to the organisation.
 - `FUNDING.yml` sets a default sponsor button.
 
-A file in a project repository always takes precedence over the same file here. FormLogic, SoftN, ZIPP, XDB, OAIY and Aokie each keep their own `SECURITY.md`, so security reports go to the project concerned.
+A file in a project repository always takes precedence over the same file here. FormLogic, ZIPP and Aokie keep their own `SECURITY.md`; an organisation-wide default placed here would cover the projects that do not.
 
 ## The projects
 
