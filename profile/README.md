@@ -121,7 +121,7 @@ A source-available, self-hostable business platform. Build forms, turn the same 
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://github.com/f2i-com/oaiy.com"><img src="https://raw.githubusercontent.com/f2i-com/oaiy.com/main/docs/images/desktop-overview.png" alt="OAIY Desktop overview with the setup guide, a running Aokie plugin and local runtime status" width="100%" /></a>
+<a href="https://github.com/f2i-com/oaiy.com"><img src="https://raw.githubusercontent.com/f2i-com/oaiy.com/main/docs/images/overview.png" alt="OAIY Desktop overview with the setup guide, a running Aokie plugin and local runtime status" width="100%" /></a>
 
 </td>
 <td width="50%" valign="top">
@@ -161,7 +161,7 @@ A Windows PC, a supported USB Bluetooth adapter and your existing mobile become 
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://github.com/f2i-com/aokie.com"><img src="https://raw.githubusercontent.com/f2i-com/aokie.com/main/docs/readme-assets/oaiy-receptionist-live.png" alt="OAIY Desktop Aokie console reporting ready for calls, Bluetooth linked and local LLM ready" width="100%" /></a>
+<a href="https://github.com/f2i-com/aokie.com"><img src="https://raw.githubusercontent.com/f2i-com/aokie.com/main/docs/readme-assets/receptionist-overview-dark.png" alt="OAIY Desktop Aokie console reporting ready for calls, Bluetooth linked and local LLM ready" width="100%" /></a>
 
 </td>
 <td width="50%" valign="top">
